@@ -1,0 +1,6 @@
+version: 2 
+sources:
+  - name: dbtcloud_redshift_serverless
+    schema: dbt
+    tables: 
+      - name: raw_customer
